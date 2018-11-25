@@ -36,8 +36,8 @@
 
 package com.google.gwt.dev.js.rhino;
 
-import java.io.Reader;
 import java.io.IOException;
+import java.io.Reader;
 
 import static com.google.gwt.dev.js.rhino.Utils.isEndOfLine;
 
@@ -284,7 +284,7 @@ final class LineBuffer {
         // If the last character of the previous fill was a carriage return,
         // then ignore a newline.
 
-        // There's another bizzare special case here.  If lastWasCR is
+        // There's another bizarre special case here.  If lastWasCR is
         // true, and we see a newline, and the buffer length is
         // 1... then we probably just read the last character of the
         // file, and returning after advancing offset is not the right
