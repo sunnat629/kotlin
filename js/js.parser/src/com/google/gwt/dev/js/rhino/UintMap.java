@@ -36,10 +36,10 @@
 
 package com.google.gwt.dev.js.rhino;
 
-import java.io.Serializable;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.io.Serializable;
 
 /**
  * Map to associate non-negative integers to objects or integers.
@@ -452,6 +452,6 @@ class UintMap implements Serializable {
     // values associated with keys
     private transient int ivaluesShift;
 
-// If true, enables consitency checks
+// If true, enables consistency checks
     private static final boolean check = false;
 }
